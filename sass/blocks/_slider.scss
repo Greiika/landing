@@ -1,0 +1,109 @@
+.slider {
+    position: relative;
+    display: flex;
+    max-width: 1003px;
+    margin: 0 auto;
+    
+}
+
+.card {
+    width: 262px !important;
+    margin-bottom: 50px;
+    margin-right: 36px;
+    margin-left: 36px;
+
+    img {
+        border-radius: 10px;
+    }
+    h3 {
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+    &__text {
+        text-align: left;
+        position: relative;
+        p  {
+            margin-top: 18px;
+            
+        }
+        p:first-of-type {
+            margin-left: 21px;
+            display: flex;
+            justify-content: space-between;
+            &::before {
+                content: '';
+                position: absolute;
+                background: url(../img/placemark.svg) no-repeat center;
+                width: 24px;
+                height: 24px;
+                top: 56px;
+                left: -5px;
+            }
+            
+            span {
+                
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background: url(../img/star.svg) no-repeat center;
+                    width: 24px;
+                    height: 24px;
+                    top: 54px;
+                    right: 35px;
+                }
+            }
+        }
+    }
+}
+
+.slider__arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+}
+
+.slider__arrow-left {
+    left: calc(50% - 165px);
+    top: 97%;
+}
+
+.slider__arrow-right {
+    right: calc(50% - 165px);
+    top: 97%;
+}
+
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li {
+        list-style: none;
+        margin: 0 3px;
+    }
+    .slick-active {
+
+        button {
+            font-size: 0;
+            background: #C9453B;
+            opacity: 1;
+            border-radius: 10px;
+            width: 75px;
+            height: 5px;
+        }
+    }  
+    button {
+        font-size: 0;
+        background: #C9453B;
+        opacity: 0.1;
+        border-radius: 10px;
+        width: 75px;
+        height: 5px;
+    } 
+}
+
+.slick-list {
+	overflow: hidden;
+}

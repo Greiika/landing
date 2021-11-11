@@ -1,0 +1,21 @@
+.blog-news {
+
+    padding-top: 70px;
+    padding-bottom: 142px;
+
+    &__heading {
+
+        margin: auto;
+
+        p {
+            text-align: center;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+    }
+    &__block-column {
+        max-width: 538px;
+    }
+}

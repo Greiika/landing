@@ -1,0 +1,21 @@
+.card-location {
+
+    width: 360px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    column-gap: 30px;
+
+    &__text {
+        text-align: center;
+        padding: 34px 42px;
+    }
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    &:hover {
+        box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+    }
+
+}

@@ -1,0 +1,31 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    //font-family: 'Ribeye', cursive;
+    //font-family: 'Gelasio', serif;
+}
+
+.container {
+    max-width: 1160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.heading {
+    padding-bottom: 54px;
+    max-width: 735px;
+    text-align: center;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+	font-size: 43px;
+	line-height: 1.4;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
