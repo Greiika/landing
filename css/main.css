@@ -583,6 +583,8 @@ html, body {
 
 .slick-list {
   overflow: hidden;
+  margin-right: 36px;
+  margin-left: 36px;
 }
 
 @media (max-width: 1140px) {
