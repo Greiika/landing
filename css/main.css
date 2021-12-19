@@ -475,8 +475,6 @@ html, body {
 .card {
   width: 262px !important;
   margin-bottom: 50px;
-  margin-right: 36px;
-  margin-left: 36px;
 }
 
 .card img {
@@ -586,7 +584,9 @@ html, body {
   margin-right: 36px;
   margin-left: 36px;
 }
-
+.slick-slider {
+  margin-right: 72px;
+}
 @media (max-width: 1140px) {
   .footer__form-input {
     margin-bottom: 20px;
