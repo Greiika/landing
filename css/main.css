@@ -581,6 +581,7 @@ html, body {
 
 .slick-list {
   overflow: hidden;
+  margin: 0 36px !important;
 }
 .slick-slider {
   margin-right: 72px;
